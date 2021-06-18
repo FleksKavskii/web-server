@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node api.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +14,11 @@
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mysql2": "^2.2.5"
+    "git": "^0.1.5",
+    "mysql2": "^2.2.5",
+    "pidcrypt": "^0.0.32"
+  },
+  "devDependencies": {
+    "concurrently": "^6.1.0"
   }
 }
